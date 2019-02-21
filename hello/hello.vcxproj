@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -121,7 +121,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlackBox.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="func.cpp" />
     <ClCompile Include="hello.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlackBox.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="hello.h" />
+    <ClInclude Include="MyException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
