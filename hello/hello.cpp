@@ -24,6 +24,7 @@ int main() {
 	//getObject();
 	//inherit();
 	//overload();
-	fs();
+	//fs();
+	customException();
 	return 0;
 }
